@@ -90,6 +90,22 @@ header{
 
 }
 
+.logo-container a{
+
+    display:inline-block;
+
+}
+
+.logo-container a:hover{
+
+    opacity:.85;
+
+    transition:.25s;
+
+}
+
+
+
 .logo{
 
     width:90px;
@@ -97,6 +113,8 @@ header{
     height:90px;
 
     object-fit:contain;
+
+    cursor:pointer;
 
 }
 
