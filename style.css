@@ -1,0 +1,294 @@
+/* ==========================================================
+   EVSU INTERACTIVE LEARNING SYSTEM
+   Version 1.0
+   Theme: EVSU Maroon & Gold
+========================================================== */
+
+:root{
+
+    --primary:#7A0019;
+    --primary-dark:#5A0012;
+    --accent:#F2B705;
+
+    --background:#F5F6FA;
+
+    --card:#FFFFFF;
+
+    --text:#2C2C2C;
+
+    --text-light:#6B7280;
+
+    --shadow:0 8px 25px rgba(0,0,0,.08);
+
+    --radius:18px;
+
+}
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    background:var(--background);
+
+    color:var(--text);
+
+}
+
+/* ===========================
+HEADER
+=========================== */
+
+header{
+
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        var(--primary-dark)
+    );
+
+    color:white;
+
+    padding:25px 10%;
+
+    box-shadow:var(--shadow);
+
+}
+
+.header-container{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+.logo{
+
+    width:90px;
+
+    height:90px;
+
+    object-fit:contain;
+
+}
+
+/* ===========================
+HERO
+=========================== */
+
+.hero{
+
+    background:white;
+
+    width:90%;
+
+    margin:40px auto;
+
+    padding:40px;
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+}
+
+.hero h2{
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    line-height:1.8;
+
+    color:var(--text-light);
+
+    margin-bottom:15px;
+
+}
+
+/* ===========================
+CREATOR
+=========================== */
+
+.creator{
+
+    width:90%;
+
+    margin:auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+}
+
+.creator h2{
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+.creator p{
+
+    margin-bottom:8px;
+
+}
+
+/* ===========================
+COURSES
+=========================== */
+
+.courses{
+
+    width:90%;
+
+    margin:40px auto;
+
+}
+
+.courses h2{
+
+    color:var(--primary);
+
+    margin-bottom:25px;
+
+}
+
+.course-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:white;
+
+    padding:25px;
+
+    margin-bottom:18px;
+
+    border-radius:16px;
+
+    box-shadow:var(--shadow);
+
+    transition:.25s;
+
+}
+
+.course-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.course-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:6px;
+
+}
+
+.course-card p{
+
+    color:var(--text-light);
+
+}
+
+button{
+
+    border:none;
+
+    background:var(--accent);
+
+    color:#222;
+
+    padding:12px 24px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    transition:.25s;
+
+}
+
+button:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* ===========================
+FOOTER
+=========================== */
+
+footer{
+
+    background:var(--primary);
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:50px;
+
+}
+
+/* ===========================
+RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+    .header-container{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .course-card{
+
+        flex-direction:column;
+
+        gap:20px;
+
+        text-align:center;
+
+    }
+
+}
