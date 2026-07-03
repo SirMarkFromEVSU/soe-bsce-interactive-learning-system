@@ -1,0 +1,40 @@
+{
+    "courses": [
+
+        {
+            "code": "MATH 113",
+            "title": "College Algebra",
+            "description": "Interactive multimedia instructional material for College Algebra.",
+            "page": "courses/math113/index.html"
+        },
+
+        {
+            "code": "MATH 124",
+            "title": "Differential Calculus",
+            "description": "Interactive multimedia instructional material for Differential Calculus.",
+            "page": "courses/math124/index.html"
+        },
+
+        {
+            "code": "MATH 214",
+            "title": "Integral Calculus",
+            "description": "Interactive multimedia instructional material for Integral Calculus.",
+            "page": "courses/math214/index.html"
+        },
+
+        {
+            "code": "CE 325",
+            "title": "Structural Theory",
+            "description": "Interactive multimedia instructional material for Structural Theory.",
+            "page": "courses/ce325/index.html"
+        },
+
+        {
+            "code": "CE 421",
+            "title": "Reinforced Concrete Design",
+            "description": "Interactive multimedia instructional material for Reinforced Concrete Design.",
+            "page": "courses/ce421/index.html"
+        }
+
+    ]
+}
