@@ -1,0 +1,1 @@
+function toggleSidebar(){sidebar.classList.toggle('open');overlay.classList.toggle('show');}
